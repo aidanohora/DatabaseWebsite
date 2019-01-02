@@ -2,6 +2,7 @@
 A website which displays information from an SQL database, designed for the use of employees in a retail company. Built using MYSQLi with XAMPP for windows.
 
 Notes:
+
 -To avoid causing the payments.php page to refresh upon clicking one of the customernumbers to show
 more info, I used iframe to embed another page (customerinfo.php) into payments.php. So, when a customer number is clicked, a form will be submit with the iframe as it's target. The code in customerinfo is executed on the form being submitted and the iframe will then display the information.
 
